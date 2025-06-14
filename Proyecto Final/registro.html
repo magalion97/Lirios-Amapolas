@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lirios & Amapolas - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Registro -->
+  <h2>Registrarse</h2>
+  <form id="formRegistro">
+    <div class="campo-formulario">
+      <input type="text" id="nombre" class="input-formulario" placeholder="Nombre" required />
+    </div>
+    <div class="campo-formulario">
+      <input type="text" id="apellido" class="input-formulario" placeholder="Apellido" required />
+    </div>
+    <div class="campo-formulario">
+      <input type="email" id="mail" class="input-formulario" placeholder="Correo electrónico" required />
+    </div>
+    <div class="campo-formulario">
+      <input type="text" id="userRegistro" class="input-formulario" placeholder="Usuario" required />
+    </div>
+    <div class="campo-formulario">
+      <input type="password" id="contrasenia" class="input-formulario" placeholder="Contraseña" required />
+    </div>
+    <div class="campo-formulario">
+      <input type="text" id="telefono" class="input-formulario" placeholder="Teléfono" />
+    </div>
+    <div class="campo-formulario">
+      <input type="text" id="direccion" class="input-formulario" placeholder="Dirección" />
+    </div>
+    <div class="campo-formulario">
+      <input type="text" id="codigoPostal" class="input-formulario" placeholder="Código Postal" />
+    </div>
+    <div class="campo-formulario">
+      <button type="submit" class="btn-formulario">Registrarse</button>
+    </div>
+
+  </form>
+
+  <p id="mensajeRegistro"></p>
+
+
+
+  <script src="registro.js"></script>
+</body>
+
+</html>

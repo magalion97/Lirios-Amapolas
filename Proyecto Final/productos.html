@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lirios & Amapolas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Tienda: Lirios & Amapolas</h1>
+  <p>Bienvenido/a a nuestra tienda. A continuación, puedes ver nuestros productos y armar tu pedido.</p>
+
+  <div class="formulario-registro">
+    <div class="campo-formulario">
+      <button onclick="mostrarProductos()" class="btn-formulario">Ver productos disponibles</button>
+    </div>
+
+    <div id="productos" class="campo-formulario"></div>
+
+    <div class="campo-formulario">
+      <select id="selectProducto" class="input-formulario"></select>
+    </div>
+
+    <div class="campo-formulario">
+      <button onclick="agregarProducto()" class="btn-formulario">Agregar al carrito</button>
+    </div>
+
+    <h2>Carrito de compras</h2>
+    <ul id="carrito"></ul>
+  </div>
+
+  <script src="productos.js"></script>
+</body>
+</html>

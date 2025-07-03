@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "nombre": "Magali",
+    "apellido": "Lion",
+    "mail": "magaa.lion97@gmail.com",
+    "user": "magalion",
+    "contrasenia": "123",
+    "telefono": 1137048373,
+    "direccion": "Avenida Frias 1953",
+    "codigoPostal": "1853",
+    "rol": "Admin"
+  }
+
+]

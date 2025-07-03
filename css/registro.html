@@ -4,8 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lirios & Amapolas - Login</title>
+  <title>Lirios & Amapolas - Registro</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- SweetAlert2 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -20,16 +23,16 @@
       <input type="text" id="apellido" class="input-formulario" placeholder="Apellido" required />
     </div>
     <div class="campo-formulario">
-      <input type="email" id="mail" class="input-formulario" placeholder="Correo electrónico" required />
+      <input type="email" id="mail" class="input-formulario" placeholder="Email" required />
+    </div>
+    <div class="campo-formulario">
+      <input type="text" id="telefono" class="input-formulario" placeholder="Teléfono" />
     </div>
     <div class="campo-formulario">
       <input type="text" id="userRegistro" class="input-formulario" placeholder="Usuario" required />
     </div>
     <div class="campo-formulario">
       <input type="password" id="contrasenia" class="input-formulario" placeholder="Contraseña" required />
-    </div>
-    <div class="campo-formulario">
-      <input type="text" id="telefono" class="input-formulario" placeholder="Teléfono" />
     </div>
     <div class="campo-formulario">
       <input type="text" id="direccion" class="input-formulario" placeholder="Dirección" />
@@ -40,12 +43,10 @@
     <div class="campo-formulario">
       <button type="submit" class="btn-formulario">Registrarse</button>
     </div>
-
   </form>
 
-  <p id="mensajeRegistro"></p>
-
-
+  <!-- Ya no se necesita este elemento -->
+  <!-- <p id="mensajeRegistro"></p> -->
 
   <script src="registro.js"></script>
 </body>

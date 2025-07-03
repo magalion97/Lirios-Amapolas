@@ -1,0 +1,35 @@
+{
+  "velas": [
+    {
+      "id": 1,
+      "nombre": "Vela Armonía",
+      "color": "Blanca",
+      "aroma": "Vainilla",
+      "tamaño": "large",
+      "precio": 200,
+      "cantidad": 1
+    }
+  ],
+  "sprays": [
+    {
+      "id": 1,
+      "nombre": "Spray Fantasía Negra",
+      "color": "Negro",
+      "aroma": "Coco",
+      "tamaño": 250,
+      "precio": 100,
+      "cantidad": 3
+    }
+  ],
+  "ceramicas": [
+    {
+      "id": 1,
+      "nombre": "Linda Rose",
+      "color": "Rosa",
+      "tamaño": "Chico",
+      "ambiente": "Cocina",
+      "precio": 200,
+      "cantidad": 2
+    }
+  ]
+}
